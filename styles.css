@@ -1,13 +1,22 @@
-.content {
-background-color: black;
+@font-face {
+    font-family: "Typewriter";
+    src: url("Old-Soviet.otf");
+}
+
+
+body {
+    font-family: "Typewriter", serif;
+    background-color: black;
+    margin: 0;
+    text-align: center;
 }
 
 p {
-color: white;
+    color: white;
 }
 
 #main {
-color: white;
-font-size: 20px;
-text-align: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
